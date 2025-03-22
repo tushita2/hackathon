@@ -1,0 +1,45 @@
+{
+  "aqi_descriptions": {
+      "good": "Air quality is ideal for everyone.",
+      "fair": "Air quality is acceptable for most people.",
+      "moderate": "Sensitive groups should limit prolonged outdoor exertion.",
+      "poor": "Everyone may begin to experience health effects; sensitive groups should avoid outdoor activities.",
+      "very_poor": "Health warnings of emergency conditions. Everyone should avoid outdoor exertion.",
+      "unknown": "Unknown air quality level."
+  },
+  "advice": {
+      "good": "No precautions needed. Enjoy your day!",
+      "fair": "Sensitive groups should stay alert but can enjoy outdoor activities.",
+      "moderate": "Reduce prolonged outdoor exertion if you're sensitive.",
+      "poor": "Consider staying indoors, especially for sensitive groups.",
+      "very_poor": "Avoid going outside. Use air purifiers if possible.",
+      "unknown": "No advice available for this air quality level."
+  },
+  "health": {
+      "advice": {
+          "high_pm2_5": " Avoid outdoor activities as fine particulate matter is high.",
+          "high_o3": " Limit outdoor exertion, particularly during sunny hours due to ozone."
+      },
+      "children": {
+          "low": "Encourage outdoor play!",
+          "moderate": "Limit outdoor activities during peak pollution hours.",
+          "high": "Keep children indoors with an air purifier running."
+      },
+      "adults": {
+          "low": "Enjoy outdoor activities freely.",
+          "moderate": "Consider wearing a mask if you're pollution-sensitive.",
+          "high": "Avoid outdoor activities and limit physical exertion."
+      },
+      "elderly": {
+          "low": "Take a morning walk in fresh air.",
+          "moderate": "Reduce prolonged exposure outside.",
+          "high": "Stay indoors and ensure good air quality at home."
+      },
+      "enter_age": "Enter your age for more detailed recommendations.",
+      "age_specific": "Recommendations for age {{age}}: Consider staying indoors during high AQI levels and minimize outdoor activities."
+  },
+  "errors": {
+      "invalid_city": "Invalid city name.",
+      "fetch_failed": "Failed to fetch data for {{city}}."
+  }
+}
